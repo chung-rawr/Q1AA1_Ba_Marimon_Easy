@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body
+{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+}
+
+.box{
+    display:flex;
+    width: 60vw;
+    padding: 30px;
+    height: 50vh;
+}
+
+.section1{
+    padding:20px;
+    background-color: hsl(31, 77%, 52%);
+    width:20vw;
+    font-family: 'Big Shoulders Display', sans-serif;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    color:white;
+    text-align: left;
+}
+
+.section2{
+    padding:20px;
+    background-color: hsl(184, 100%, 22%);
+    width:20vw;
+    font-family: 'Big Shoulders Display', sans-serif;
+    color:white;
+    text-align: left;
+}
+
+.section3{
+    padding:20px;
+    background-color: hsl(179, 100%, 13%);
+    width:20vw;
+    font-family: 'Big Shoulders Display', sans-serif;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color:white;
+    text-align: left;
+    
+}
+
+h3{
+    background-color:white;
+    border-radius:75px;
+    padding:5px;
+    width: 100px;
+    text-align: center;
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+.section1>h3{
+    color: hsl(31, 77%, 52%);
+    font-family: 'Lexend Deca', sans-serif;
+    width: 13vh;
+}
+
+.section2>h3{
+    color: hsl(184, 100%, 22%);
+    font-family: 'Lexend Deca', sans-serif;
+    width: 13vh;
+}
+
+.section3>h3{
+    color: hsl(179, 100%, 13%);
+    font-family: 'Lexend Deca', sans-serif;
+    width: 13vh;
+}
+
+
+p{
+    padding: 20px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
